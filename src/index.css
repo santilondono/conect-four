@@ -91,7 +91,7 @@ body {
 
 .winner {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: 120vh;
   top: 0;
   left: 0;
@@ -101,7 +101,7 @@ body {
 }
 
 .winner .text {
-  background: #111;
+  background: rgb(17, 17, 17, 0.7);
   height: 300px;
   width: 320px;
   border: 2px solid #eee;
@@ -123,12 +123,12 @@ body {
 }
 
 .square {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border: 2px solid #eee;
   border-radius: 50%;
   display: grid;
   align-items: center;
   cursor: pointer;
-  font-size: 40px;
+  font-size: 30px;
 }
